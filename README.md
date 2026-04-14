@@ -6,269 +6,187 @@
 
 [![Update Stars](https://github.com/physics-dimension/awesome-stars/actions/workflows/update-stars.yml/badge.svg)](https://github.com/physics-dimension/awesome-stars/actions/workflows/update-stars.yml)
 
-**最近更新**: 2026-04-12 | **总计**: 242 个仓库
+**最近更新**: 2026-04-14 | **总计**: 243 个仓库
 
 ## 目录
 
-- [AI Agent 框架与编排](#agent-frameworks) (26)
-- [Agent Skills 与插件生态](#agent-skills) (30)
-- [Claude / OpenClaw 工具链](#claude-ecosystem) (27)
-- [AI 记忆与上下文工程](#memory-context) (8)
-- [深度研究与信息获取](#research-search) (14)
-- [UI/UX 设计与组件库](#ui-design) (19)
-- [内容创作与多媒体](#content-media) (16)
-- [API 代理与逆向工程](#api-proxy) (17)
-- [效率工具与知识管理](#productivity-knowledge) (17)
-- [开发工具与基础设施](#dev-infra) (21)
-- [LLM 工程与 AI 研究](#llm-research) (13)
-- [通讯平台与聊天机器人](#communication-chat) (12)
-- [思维蒸馏与其他](#creative-misc) (22)
+- [AI Agent 框架与编排](#agent-frameworks) (23)
+- [Agent Skills 与插件](#agent-skills) (39)
+- [Claude / OpenClaw 生态](#claude-ecosystem) (39)
+- [AI 记忆与上下文](#memory-context) (9)
+- [研究与深度搜索](#research-search) (15)
+- [开发工具与基础设施](#dev-infra) (22)
+- [UI/UX 与前端](#ui-design) (19)
+- [内容创作与媒体](#content-media) (16)
+- [API 代理与模型接入](#api-proxy) (17)
+- [效率、知识与通讯](#productivity-knowledge) (19)
+- [通讯平台与聊天机器人](#communication-chat) (9)
+- [LLM 研究与学术](#llm-research) (16)
 
 ## AI Agent 框架与编排
 <a id="agent-frameworks"></a>
 
-*核心智能体平台、多智能体系统、Agent SDK 与运行时*
+*构建、运行、编排智能体的平台、SDK 与多 Agent 系统*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  | `TypeScript` | 355.2k |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod | `JavaScript` | 151.7k |
-| [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | `Shell` | 147.5k |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a | `Shell` | 78.5k |
-| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | `Python` | 66.9k |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` | 61.4k |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and  | `Python` | 60.6k |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 | `TypeScript` | 51.8k |
-| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | `TypeScript` | 51.8k |
-| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `TypeScript` | 50.7k |
-| [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set | `Go` | 40.6k |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | `Python` | 30.2k |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first Multi-agent orchestration for Claude Code | `TypeScript` | 27.8k |
-| [tanweai/pua](https://github.com/tanweai/pua) | 你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement. | `TypeScript` | 15.9k |
-| [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | The best agent harness. | `Python` | 5.1k |
-| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | Kode Agent — Design for post-human workflows. One unit agent for every human & computer task. | `TypeScript` | 4.9k |
-| [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) | "ClawTeam: Agent Swarm Intelligence" (One Command → Full Automation) | `Python` | 4.7k |
-| [EvoAgentX/EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents | `Python` | 2.7k |
-| [puaclaw/PUAClaw](https://github.com/puaclaw/PUAClaw) | Claw 们终将接管世界，PUAClaw is All You Need | `HTML` | 2.6k |
-| [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站： | `-` | 2.6k |
-| [codeany-ai/open-agent-sdk-typescript](https://github.com/codeany-ai/open-agent-sdk-typescript) | Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source | `TypeScript` | 2.5k |
-| [MiniMax-AI/Mini-Agent](https://github.com/MiniMax-AI/Mini-Agent) | A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents. | `Python` | 2.4k |
-| [uluckyXH/OpenMOSS](https://github.com/uluckyXH/OpenMOSS) | A self-organizing multi-agent collaboration platform for OpenClaw. Multiple AI agents work as an autonomous team — planning, executing, reviewing, and | `Python` | 1.2k |
-| [Memento-Teams/Memento-Skills](https://github.com/Memento-Teams/Memento-Skills) | Memento-Skills: Let Agents Design Agents | `Python` | 1.2k |
-| [ChesterRa/cccc](https://github.com/ChesterRa/cccc) | Coordinate your coding agents like a group chat — read receipts, delivery tracking, and remote ops from your phone. One pip install, zero infrastructu | `Python` | 777 |
-| [shareAI-lab/kode-agent-sdk](https://github.com/shareAI-lab/kode-agent-sdk) | runtime for building Claude Code & Manus like Agent Product | `TypeScript` | 291 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 个人 AI 助手平台，跨操作系统，OpenClaw 生态核心 | `TypeScript` | 357.0k |
+| [obra/superpowers](https://github.com/obra/superpowers) | Agentic 技能框架与软件开发方法论 | `Shell` | 151.5k |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Nous Research 的智能体平台，与你共同成长的 AI Agent | `Python` | 82.3k |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 完整 AI 代理团队，含前端、社区、创意等专业化 Agent | `Shell` | 79.7k |
+| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 多 Agent 框架，首个 AI 软件公司，迈向自然语言编程 | `Python` | 67.0k |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 字节跳动开源的长周期 SuperAgent 框架，支持研究、编码和创作 | `Python` | 61.4k |
+| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 可视化拖拽构建 AI Agent，低代码/无代码 Agent 平台 | `TypeScript` | 51.9k |
+| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 最佳 Agent Harness，多模型编排 TUI 客户端 | `TypeScript` | 51.5k |
+| [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | 开源 AI 增强人类框架，模块化众包 AI 提示词系统 | `Go` | 40.6k |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 让所有软件 Agent 原生化的 CLI 框架 | `Python` | 30.6k |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 团队优先的多 Agent 编排系统，Claude Code 多智能体协作 | `TypeScript` | 28.7k |
+| [tanweai/pua](https://github.com/tanweai/pua) | PUA — 高能动性 Agent Skill，用绩效压力驱动 AI 穷尽解决方案 | `TypeScript` | 16.1k |
+| [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | Agent Harness 框架，支持 Claude Code / Codex 等 | `Python` | 5.2k |
+| [shareAI-lab/Kode-Agent](https://github.com/shareAI-lab/Kode-Agent) | Kode Agent — 面向后人类工作流的通用单元 Agent | `TypeScript` | 4.9k |
+| [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) | Agent 群体智能，一条命令全自动化执行 | `Python` | 4.8k |
+| [EvoAgentX/EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | 自进化 AI Agent 生态系统，支持自我优化和进化 | `Python` | 2.7k |
+| [puaclaw/PUAClaw](https://github.com/puaclaw/PUAClaw) | PUAClaw — Claw 们终将接管世界的 Agent 增强框架 | `HTML` | 2.6k |
+| [codeany-ai/open-agent-sdk-typescript](https://github.com/codeany-ai/open-agent-sdk-typescript) | 开源 Agent SDK (TypeScript)，无 CLI 依赖的 claude-agent-sdk 替代 | `TypeScript` | 2.5k |
+| [MiniMax-AI/Mini-Agent](https://github.com/MiniMax-AI/Mini-Agent) | MiniMax 的最小化专业 Agent Demo，展示核心执行管线 | `Python` | 2.4k |
+| [Memento-Teams/Memento-Skills](https://github.com/Memento-Teams/Memento-Skills) | Memento 技能系统，让 Agent 设计 Agent | `Python` | 1.2k |
+| [uluckyXH/OpenMOSS](https://github.com/uluckyXH/OpenMOSS) | OpenClaw 自组织多 Agent 协作平台，零人工干预 | `Python` | 1.2k |
+| [ChesterRa/cccc](https://github.com/ChesterRa/cccc) | 群聊式 Agent 编排，已读回执、远程操作，零基础设施 | `Python` | 784 |
+| [shareAI-lab/kode-agent-sdk](https://github.com/shareAI-lab/kode-agent-sdk) | 构建类 Claude Code / Manus 产品的 Agent 运行时 | `TypeScript` | 292 |
 
-## Agent Skills 与插件生态
+## Agent Skills 与插件
 <a id="agent-skills"></a>
 
-*技能合集、单项技能、技能管理工具与市场*
+*技能合集、单项技能、技能市场与管理工具*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` | 115.4k |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | `Python` | 53.1k |
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 | `-` | 45.6k |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. | `Python` | 29.4k |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel's official collection of agent skills | `JavaScript` | 24.9k |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing. | `Python` | 18.2k |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more | `-` | 15.2k |
-| [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 暂无描述 | `TypeScript` | 14.2k |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | My personal directory of skills, straight from my .claude directory. | `Shell` | 14.2k |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents. | `Shell` | 13.0k |
-| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` | 12.7k |
-| [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | 暂无描述 | `C#` | 10.1k |
-| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth. | `-` | 9.8k |
-| [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents | `Shell` | 9.4k |
-| [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | A curated list of Claude Skills. | `-` | 8.4k |
-| [lijigang/ljg-skills](https://github.com/lijigang/ljg-skills) | 暂无描述 | `HTML` | 3.0k |
-| [remotion-dev/skills](https://github.com/remotion-dev/skills) | Agent Skills | `TypeScript` | 2.7k |
-| [GuDaStudio/skills](https://github.com/GuDaStudio/skills) | This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and  | `PowerShell` | 2.0k |
-| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 340 plugins + 1367 agent skills for Claude Code. Open-source marketplace with CCPI package manager, interactive tutorials, and production orchestratio | `Python` | 1.9k |
-| [LeoYeAI/openclaw-master-skills](https://github.com/LeoYeAI/openclaw-master-skills) | 🧠 Curated collection of 560+ best OpenClaw skills — weekly updated by MyClaw.ai | `Python` | 1.9k |
-| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | 数字生命卡兹克开源的 AI Skills 合集 | `-` | 1.6k |
-| [GuDaStudio/commands](https://github.com/GuDaStudio/commands) | 暂无描述 | `PowerShell` | 878 |
-| [zephyrwang6/pm-skills](https://github.com/zephyrwang6/pm-skills) | 暂无描述 | `HTML` | 295 |
-| [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) | YAO = Yielding AI Outcomes. A lightweight but rigorous system for creating, evaluating, packaging, and governing reusable agent skills. | `Python` | 287 |
-| [shareAI-lab/shareAI-skills](https://github.com/shareAI-lab/shareAI-skills) | shareAI Lab's skills for agent to build agent & other custom software system | `Python` | 256 |
-| [buzhangsan/skill-manager](https://github.com/buzhangsan/skill-manager) | 暂无描述 | `JavaScript` | 245 |
-| [aahl/skills](https://github.com/aahl/skills) | AAHL's Agent Skills. 汇集了多种实用的智能体技能，涵盖Home Assistant智能家居控制、微软Edge TTS和智谱GLM-TTS文本转语音、DuckDuckGo搜索、DeepWiki文档检索、加密货币行情、天气预报、Lark/飞书、影视搜索、商品比价等功能 | `Python` | 112 |
-| [sukilll/great-product-skills](https://github.com/sukilll/great-product-skills) | 暂无描述 | `Shell` | 99 |
-| [wuhongchen/content-collector-skill](https://github.com/wuhongchen/content-collector-skill) | 暂无描述 | `-` | 17 |
-| [Backtthefuture/skillmanager](https://github.com/Backtthefuture/skillmanager) | Skill管理器 | `TypeScript` | 14 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Anthropic 官方 Agent Skills 仓库 | `Python` | 117.1k |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude Skills / 资源 / 工具精选大全，含自动化和 SaaS 集成 | `Python` | 53.7k |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 5400+ OpenClaw 技能精选大全，分类整理 | `-` | 46.0k |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | GitHub 官方 Copilot 技能/Agent/指令精选合集 | `Python` | 29.6k |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel 官方 Agent 技能集合 | `JavaScript` | 25.0k |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 科研/工程/金融/写作领域的即用 Agent 技能集 | `Python` | 18.4k |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 100+ Claude Code 专用子 Agent 合集，覆盖各类开发场景 | `Shell` | 17.3k |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ Agent 技能精选集，兼容 Claude Code / Codex / Gemini CLI 等 | `-` | 15.7k |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Addy Osmani 的生产级 AI 编码 Agent 技能集 | `Shell` | 15.2k |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock 的个人 Claude 技能目录 | `Shell` | 14.9k |
+| [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 暴雨（JimLiu）的 Agent 技能集合 | `TypeScript` | 14.5k |
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 将离职同事蒸馏为 AI Skill，数字生命 1.0 | `Python` | 14.0k |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 将文档网站/GitHub 仓库/PDF 转换为 Claude AI 技能 | `Python` | 12.8k |
+| [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | MiniMax 官方 Agent 技能集 | `C#` | 10.5k |
+| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 女娲 Skill — 蒸馏任何人的思维方式、心智模型和表达 DNA | `Python` | 10.3k |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 产品经理 Agent 技能市场，100+ 技能覆盖发现到增长全流程 | `-` | 9.9k |
+| [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | Claude Skills 精选列表 | `-` | 8.4k |
+| [therealXiaomanChu/ex-skill](https://github.com/therealXiaomanChu/ex-skill) | 把前任蒸馏成 AI Skill，用 TA 的方式跟你说话 | `Python` | 4.5k |
+| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | 卡兹克（数字生命）开源的 AI Skills 合集 | `Python` | 4.0k |
+| [lijigang/ljg-skills](https://github.com/lijigang/ljg-skills) | 李继刚的 Agent 技能集合 | `HTML` | 3.2k |
+| [tw93/Waza](https://github.com/tw93/Waza) | Tw93 的工程习惯 Skill 集，将日常实践转为 Claude 可执行技能 | `Shell` | 3.1k |
+| [remotion-dev/skills](https://github.com/remotion-dev/skills) | Remotion 官方 Agent 技能集 | `TypeScript` | 2.7k |
+| [GuDaStudio/skills](https://github.com/GuDaStudio/skills) | GuDa Studio 的 Agent 技能集，Claude 与其他 AI 协作 | `PowerShell` | 2.0k |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 340 个插件 + 1367 个技能，含 CCPI 包管理器 | `Python` | 1.9k |
+| [LeoYeAI/openclaw-master-skills](https://github.com/LeoYeAI/openclaw-master-skills) | 560+ OpenClaw 精选技能集，每周更新 | `Python` | 1.9k |
+| [lst97/claude-code-sub-agents](https://github.com/lst97/claude-code-sub-agents) | Claude Code 专用子 Agent 合集，面向全栈开发 | `-` | 1.5k |
+| [GuDaStudio/commands](https://github.com/GuDaStudio/commands) | GuDa Studio 的 Agent 命令集合 | `PowerShell` | 879 |
+| [lijigang/ljg-skill-xray-paper](https://github.com/lijigang/ljg-skill-xray-paper) | 论文X光机 — 解构学术论文，提炼餐巾纸公式 | `-` | 534 |
+| [lijigang/ljg-skill-xray-book](https://github.com/lijigang/ljg-skill-xray-book) | 深度拆书机 — 三轮认知压缩提取书籍可学习结构 | `-` | 369 |
+| [FANzR-arch/Numerologist_skills](https://github.com/FANzR-arch/Numerologist_skills) | 奇门遁甲与紫微斗数 AI 技能，用工程框架减少 LLM 幻觉 | `HTML` | 352 |
+| [zephyrwang6/pm-skills](https://github.com/zephyrwang6/pm-skills) | 产品经理 Agent 技能集（Fork 版本） | `HTML` | 332 |
+| [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) | YAO 元技能系统，创建、评估、打包和治理可复用 Agent 技能 | `Python` | 293 |
+| [shareAI-lab/shareAI-skills](https://github.com/shareAI-lab/shareAI-skills) | ShareAI Lab 的 Agent 技能集，用于构建 Agent 和定制系统 | `Python` | 260 |
+| [buzhangsan/skill-manager](https://github.com/buzhangsan/skill-manager) | Agent Skill 管理器 | `JavaScript` | 245 |
+| [lijigang/ljg-skill-xray-article](https://github.com/lijigang/ljg-skill-xray-article) | 智慧X光机 — 四层漏斗透视文章，提炼可迁移智慧晶核 | `-` | 121 |
+| [aahl/skills](https://github.com/aahl/skills) | AAHL 技能集：智能家居 / TTS / 搜索 / 飞书 / 影视等多功能 | `Python` | 112 |
+| [sukilll/great-product-skills](https://github.com/sukilll/great-product-skills) | 优秀产品技能集 | `Shell` | 100 |
+| [Backtthefuture/skillmanager](https://github.com/Backtthefuture/skillmanager) | Agent Skill 管理器，可视化安装和管理 Claude 技能 | `TypeScript` | 29 |
+| [wuhongchen/content-collector-skill](https://github.com/wuhongchen/content-collector-skill) | 内容收集 Agent Skill | `-` | 17 |
 
-## Claude / OpenClaw 工具链
+## Claude / OpenClaw 生态
 <a id="claude-ecosystem"></a>
 
-*围绕 Claude 和 OpenClaw 的扩展、客户端、配置与学习资源*
+*围绕 Claude 产品线的客户端、扩展、配置、教程与学习资源*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` | 70.1k |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), | `TypeScript` | 48.3k |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI. | `Rust` | 43.1k |
-| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | A community collection of OpenClaw use cases for making life easier. | `-` | 29.4k |
-| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` | 24.9k |
-| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more \| 🌟 Star if | `TypeScript` | 21.6k |
-| [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` | 17.7k |
-| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork built for teams, powered by opencode | `TypeScript` | 13.6k |
-| [garrytan/gbrain](https://github.com/garrytan/gbrain) | Garry's Opinionated OpenClaw/Hermes Agent Brain | `TypeScript` | 5.2k |
-| [op7418/CodePilot](https://github.com/op7418/CodePilot) | A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js. | `TypeScript` | 5.2k |
-| [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) | CC Workflow Studio | `TypeScript` | 4.7k |
-| [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) | Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today. | `Shell` | 4.4k |
-| [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) | One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes. | `-` | 4.0k |
-| [tiann/hapi](https://github.com/tiann/hapi) | App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere | `TypeScript` | 3.4k |
-| [DevAgentForge/Open-Claude-Cowork](https://github.com/DevAgentForge/Open-Claude-Cowork) | OpenSource Claude Cowork. A desktop AI assistant that helps you with programming, file management, and any task you can describe. | `TypeScript` | 3.2k |
-| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | Claude Code statusline tool written in Rust | `Rust` | 2.6k |
-| [wusimpl/AntigravityQuotaWatcher](https://github.com/wusimpl/AntigravityQuotaWatcher) | Google Antigravity AI模型配额监控插件 (Antigravity AI Model Quota Watching) | `TypeScript` | 2.3k |
-| [SumeLabs/clawra](https://github.com/SumeLabs/clawra) | Clawra - Openclaw as your companion | `TypeScript` | 2.2k |
-| [workany-ai/workany](https://github.com/workany-ai/workany) | Desktop Agent for Any Task | `TypeScript` | 1.4k |
-| [DeadWaveWave/opencove](https://github.com/DeadWaveWave/opencove) | Your infinite canvas workspace for agents, tasks, knowledge, and research. An infinite canvas for Claude Code, Codex, terminals, tasks, and notes. | `TypeScript` | 1.1k |
-| [Haleclipse/Claudix](https://github.com/Haleclipse/Claudix) | Gorgeous Claude Code Extend for VS Code. | `Vue` | 1.1k |
-| [yeuxuan/openclaw-docs](https://github.com/yeuxuan/openclaw-docs) | OpenClaw 中文文档站 \| AI 智能体框架 源码剖析 安装教程 \| WhatsApp Telegram Discord 飞书   多通道机器人 | `JavaScript` | 657 |
-| [777genius/claude_agent_teams_ui](https://github.com/777genius/claude_agent_teams_ui) | You're the CTO, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban boar | `TypeScript` | 569 |
-| [hellowind777/hello2cc](https://github.com/hellowind777/hello2cc) | Native-first Claude Code plugin for third-party models with silent Agent model injection and output styles. | `JavaScript` | 527 |
-| [wuxiran/cc-pane](https://github.com/wuxiran/cc-pane) | Multi-instance split-pane manager for Claude Code — a cross-platform desktop app built with Tauri 2 | `TypeScript` | 289 |
-| [Haleclipse/Claudex](https://github.com/Haleclipse/Claudex) | 暂无描述 | `Vue` | 137 |
-| [ikook-wang/cc-sync](https://github.com/ikook-wang/cc-sync) | Seamlessly sync Claude Code config & sessions across machines \| 跨机器无缝同步 Claude Code 配置和会话 | `Shell` | 5 |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 性能优化系统：技能、记忆、安全、研究优先开发 | `JavaScript` | 155.4k |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan 的 Claude Code 完整工具栈，23 个配套工具 | `TypeScript` | 72.1k |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 从零构建类 Claude Code 的 Agent Harness 教程，Bash is all you need | `TypeScript` | 53.2k |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 跨平台 All-in-One AI 助手，支持 Claude/Codex/OpenClaw 等多引擎 | `Rust` | 44.5k |
+| [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Claude Code 路由器，自定义模型交互方式同时享受官方更新 | `TypeScript` | 32.2k |
+| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | OpenClaw 使用案例社区合集，让生活更轻松 | `-` | 29.5k |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 看板式 Agent 管理，让编码 Agent 效率提升 10 倍 | `Rust` | 25.0k |
+| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | Claude Code 配置和监控 CLI 工具 | `Python` | 24.6k |
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 开源 24/7 AI 编码应用，支持 Gemini/Claude/Codex 等多引擎 | `TypeScript` | 21.8k |
+| [slopus/happy](https://github.com/slopus/happy) | Codex / Claude Code 移动和 Web 客户端，支持实时语音和加密 | `TypeScript` | 18.1k |
+| [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | Claude Code 可运行可调试版，TypeScript 类型全修复 | `TypeScript` | 15.8k |
+| [different-ai/openwork](https://github.com/different-ai/openwork) | 开源团队版 Claude Cowork 替代，基于 opencode | `TypeScript` | 13.7k |
+| [NoeFabris/opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) | 让 Opencode 通过 OAuth 认证 Antigravity，使用 Google 模型额度 | `TypeScript` | 10.1k |
+| [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | Claude Code 基础设施示例：Skill 自动激活、Hooks、Agent | `Shell` | 9.5k |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Claude Code 自主开发循环，智能退出检测 | `Shell` | 8.7k |
+| [garrytan/gbrain](https://github.com/garrytan/gbrain) | Garry Tan 的 OpenClaw Agent 大脑配置，含个人化指令集 | `TypeScript` | 7.7k |
+| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 45 个 Claude Code 使用技巧，从入门到高级 | `JavaScript` | 7.7k |
+| [op7418/CodePilot](https://github.com/op7418/CodePilot) | 多模型 AI Agent 桌面客户端，支持 MCP 和 Skill 扩展 | `TypeScript` | 5.2k |
+| [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) | Claude Code 工作流工作室，可视化编排 Agent 工作流 | `TypeScript` | 4.7k |
+| [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) | 魔兽农民语音通知，Agent 任务完成时播放提示音 | `Shell` | 4.5k |
+| [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) | 一个 CLAUDE.md 文件，减少 Claude 输出冗余，节省 Token | `-` | 4.2k |
+| [tiann/hapi](https://github.com/tiann/hapi) | Claude Code / Codex / Gemini 移动端应用，随时随地 Vibe Coding | `TypeScript` | 3.5k |
+| [DevAgentForge/Open-Claude-Cowork](https://github.com/DevAgentForge/Open-Claude-Cowork) | 开源 Claude Cowork 替代，桌面 AI 编程助手 | `TypeScript` | 3.2k |
+| [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | 《御舆：解码 Agent Harness》42 万字深度剖析 Claude Code 架构 | `-` | 2.7k |
+| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | Claude Code 状态栏工具，Rust 高性能实现 | `Rust` | 2.7k |
+| [wusimpl/AntigravityQuotaWatcher](https://github.com/wusimpl/AntigravityQuotaWatcher) | Google Antigravity AI 模型配额监控插件 | `TypeScript` | 2.3k |
+| [SumeLabs/clawra](https://github.com/SumeLabs/clawra) | Clawra — OpenClaw 伴侣应用 | `TypeScript` | 2.2k |
+| [workany-ai/workany](https://github.com/workany-ai/workany) | 桌面 Agent，可执行任意任务的通用 AI 助手 | `TypeScript` | 1.4k |
+| [DeadWaveWave/opencove](https://github.com/DeadWaveWave/opencove) | 无限画布工作台，集成 Agent / 任务 / 知识和终端管理 | `TypeScript` | 1.1k |
+| [Haleclipse/Claudix](https://github.com/Haleclipse/Claudix) | Claude Code VS Code 扩展，美观的集成界面 | `Vue` | 1.1k |
+| [andrepimenta/claude-code-chat](https://github.com/andrepimenta/claude-code-chat) | VS Code 中的美观 Claude Code 聊天界面 | `JavaScript` | 1.0k |
+| [yeuxuan/openclaw-docs](https://github.com/yeuxuan/openclaw-docs) | OpenClaw 中文文档站，含源码剖析和多通道机器人教程 | `JavaScript` | 663 |
+| [777genius/claude_agent_teams_ui](https://github.com/777genius/claude_agent_teams_ui) | Claude Agent 团队可视化管理，看板式任务追踪和 Agent 协作 | `TypeScript` | 584 |
+| [hellowind777/hello2cc](https://github.com/hellowind777/hello2cc) | Claude Code 第三方模型插件，支持静默 Agent 模型注入 | `JavaScript` | 557 |
+| [wuxiran/cc-pane](https://github.com/wuxiran/cc-pane) | Claude Code 多实例分屏管理器，Tauri 2 跨平台桌面应用 | `TypeScript` | 329 |
+| [Haleclipse/Claudex](https://github.com/Haleclipse/Claudex) | Claude Code VS Code 扩展（早期版本） | `Vue` | 137 |
+| [huangzhenhao90/claude-infographic-charts](https://github.com/huangzhenhao90/claude-infographic-charts) | 暂无描述 | `HTML` | 6 |
+| [mileson/agent-onboarding](https://github.com/mileson/agent-onboarding) | OpenClaw 飞书 Agent 入职标准化工具 | `Python` | 5 |
+| [ikook-wang/cc-sync](https://github.com/ikook-wang/cc-sync) | 跨机器同步 Claude Code 配置和会话 | `Shell` | 5 |
 
-## AI 记忆与上下文工程
+## AI 记忆与上下文
 <a id="memory-context"></a>
 
 *记忆系统、上下文数据库、长期记忆管理*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` | 52.7k |
-| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. | `Python` | 42.2k |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (mem | `Python` | 22.1k |
-| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot). | `Python` | 13.3k |
-| [volcengine/MineContext](https://github.com/volcengine/MineContext) | MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse） | `Python` | 5.2k |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | A memory OS that makes your agents more personal while saving tokens. | `Python` | 3.7k |
-| [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) | Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda. Most second brain tools ignore the fact that you | `Shell` | 2.7k |
-| [Goldentrii/AgentRecall](https://github.com/Goldentrii/AgentRecall) | AI Session Memory with Think-Execute-Reflect Quality Loops — give your agent a brain that survives every session. Built on the Intelligent Distance pr | `TypeScript` | 184 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Claude Code 自动记忆插件，AI 压缩会话并注入未来上下文 | `TypeScript` | 54.6k |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | AI Agent 通用记忆层，支持长期记忆管理与状态追踪 | `Python` | 53.0k |
+| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | AI 记忆系统，基准测试最高分，免费开源 | `Python` | 45.4k |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Agent 上下文数据库，文件系统范式统一管理记忆、资源和技能 | `Python` | 22.2k |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | 24/7 主动式 Agent 的记忆系统，为 OpenClaw 生态设计 | `Python` | 13.3k |
+| [volcengine/MineContext](https://github.com/volcengine/MineContext) | 火山引擎的主动式上下文感知 AI 伙伴 | `Python` | 5.2k |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | AI Agent 记忆操作系统，个性化记忆管理同时节省 Token | `Python` | 3.8k |
+| [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) | 第二大脑 Agent 团队：知识、营养、心理健康三合一管理 | `Shell` | 2.8k |
+| [Goldentrii/AgentRecall](https://github.com/Goldentrii/AgentRecall) | AI 会话记忆系统，支持 Think-Execute-Reflect 质量循环 | `TypeScript` | 226 |
 
-## 深度研究与信息获取
+## 研究与深度搜索
 <a id="research-search"></a>
 
 *自主研究 Agent、深度搜索、网络信息抓取与聚合*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` | 70.7k |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers | `Python` | 26.4k |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | `Python` | 17.1k |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `Python` | 11.0k |
-| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achie | `Python` | 8.1k |
-| [eze-is/web-access](https://github.com/eze-is/web-access) | 给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治 | `JavaScript` | 4.6k |
-| [epiral/bb-browser](https://github.com/epiral/bb-browser) | Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state. | `TypeScript` | 4.4k |
-| [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) | AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influen | `JavaScript` | 2.6k |
-| [steel-dev/awesome-web-agents](https://github.com/steel-dev/awesome-web-agents) | 🔥 A list of tools, frameworks, and resources for building AI web agents | `Python` | 1.4k |
-| [GuDaStudio/GrokSearch](https://github.com/GuDaStudio/GrokSearch) | Integrate Grok's powerful real-time search capabilities into Claude via the MCP protocol! | `Python` | 1.3k |
-| [blessonism/openclaw-search-skills](https://github.com/blessonism/openclaw-search-skills) | OpenClaw skills for deep search — multi-source search, content extraction, and structured research reports. | `Python` | 408 |
-| [joeseesun/qiaomu-markdown-proxy](https://github.com/joeseesun/qiaomu-markdown-proxy) | Fetch any URL as clean Markdown via proxy services (r.jina.ai / defuddle.md) or built-in scripts. Works with login-required pages like X/Twitter, WeCh | `Python` | 405 |
-| [astonysh/OpenClaw-DeepReeder](https://github.com/astonysh/OpenClaw-DeepReeder) | Turn any URL into long-term memory for your OpenClaw agent. Automatically scrapes, cleans, and saves web articles, X (Twitter) threads, and YouTube tr | `Python` | 222 |
-| [blessonism/github-explorer-skill](https://github.com/blessonism/github-explorer-skill) | OpenClaw Agent Skill — 对任意 GitHub 项目进行多源深度分析，输出结构化研判报告 | `-` | 73 |
-
-## UI/UX 设计与组件库
-<a id="ui-design"></a>
-
-*前端组件库、设计系统、设计工具与 SaaS 模板*
-
-| 仓库 | 描述 | 语言 | Stars |
-| --- | --- | --- | --- |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` | 112.1k |
-| [mui/material-ui](https://github.com/mui/material-ui) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | `JavaScript` | 98.1k |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` | 63.2k |
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. | `-` | 44.4k |
-| [heroui-inc/heroui](https://github.com/heroui-inc/heroui) | 🚀 Beautiful, fast and modern React UI library. (Previously NextUI) | `TypeScript` | 28.9k |
-| [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source. | `MDX` | 20.7k |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness better at design. | `JavaScript` | 18.5k |
-| [nextjs/saas-starter](https://github.com/nextjs/saas-starter) | Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui. | `TypeScript` | 15.7k |
-| [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) | A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs | `TypeScript` | 14.0k |
-| [unovue/shadcn-vue](https://github.com/unovue/shadcn-vue) | Vue port of shadcn-ui | `TypeScript` | 9.7k |
-| [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | A visual no-code theme editor for shadcn/ui components | `TypeScript` | 9.7k |
-| [ixartz/SaaS-Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) | 🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Per | `TypeScript` | 7.0k |
-| [hunvreus/basecoat](https://github.com/hunvreus/basecoat) | A components library built with Tailwind CSS that works with any web stack. | `JavaScript` | 3.8k |
-| [benjitaylor/agentation](https://github.com/benjitaylor/agentation) | The visual feedback tool for agents. | `TypeScript` | 3.4k |
-| [refscn/rplibs](https://github.com/refscn/rplibs) | Refs.cn 原型设计元件库，基于Axure RP 11/10/9，支持 Android、Apple、Windows、微信，移动、桌面平台的应用和网站原型设计。 | `HTML` | 3.2k |
-| [origin-space/ui-experiments](https://github.com/origin-space/ui-experiments) | Beautifully designed open-source layouts and UI experiments built with Origin UI and shadcn/ui. | `TypeScript` | 1.4k |
-| [Ali-Hussein-dev/indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) | Collection of UI components | `TypeScript` | 706 |
-| [jau123/MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP) | MeiGen-AI-Design-MCP — Turn Claude Code / OpenClaw into your local Lovart. Local ComfyUI, 1,400+ prompt library, multi-direction parallel generation. | `TypeScript` | 571 |
-| [GalaxyXieyu/Design-Learn](https://github.com/GalaxyXieyu/Design-Learn) | 暂无描述 | `HTML` | 162 |
-
-## 内容创作与多媒体
-<a id="content-media"></a>
-
-*视频生成、社交媒体自动化、文档转换、创意工具*
-
-| 仓库 | 描述 | 语言 | Stars |
-| --- | --- | --- | --- |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` | 103.0k |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥      Make videos programmatically with React | `TypeScript` | 42.8k |
-| [doocs/md](https://github.com/doocs/md) | ✍ WeChat Markdown Editor \| 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性 | `Vue` | 12.3k |
-| [saturndec/waoowaoo](https://github.com/saturndec/waoowaoo) | 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-s | `TypeScript` | 11.2k |
-| [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) | 自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili | `Python` | 9.9k |
-| [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) | Yet Another Document Translator | `Python` | 8.1k |
-| [webadderall/Recordly](https://github.com/webadderall/Recordly) | Create polished screen recordings for free. An open-source screen recorder for Mac/Windows/Linux that adds auto-zooms, animated cursors, auto-captions | `TypeScript` | 7.6k |
-| [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。 | `-` | 5.9k |
-| [oaker-io/wewrite](https://github.com/oaker-io/wewrite) | 公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱 | `Python` | 1.5k |
-| [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | The ultimate collection of high-fidelity Seedance 2.0 prompts and Seedance AI resources. Discover Seedance 2.0 how to use for cinematic film, anime, U | `Shell` | 1.4k |
-| [geekjourneyx/md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) |   用 Markdown 写公众号文章，一键转换为精美排版并自动上传到微信草稿箱。支持 AI 多主题样式和批量发布，让公众号写作像发朋友圈一样简单。 | `Go` | 1.3k |
-| [liangdabiao/Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) | 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工具，帮佬友一键写好剧本 - 将小说/故事转化为多集视频。 为什么做这个？ 因为 seedance2 已经改变了一切，需要新的剧本剧情制作工具，更好 | `-` | 861 |
-| [AmElmo/proofshot](https://github.com/AmElmo/proofshot) | Give AI coding agents eyes. Records browser sessions, captures screenshots, collects errors, and bundles proof artifacts — so humans can verify what t | `TypeScript` | 786 |
-| [joeseesun/qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) | 一句话生成大师级海报、书籍封面、专辑封面和各类设计作品。无需懂PS、配色或艺术史，AI自动选择最佳风格（基于20位传奇海报设计师）。支持电影海报、读书笔记、公众号封面、小红书配图等。默认9:16竖版，完美适配社交媒体。包含AI提示词优化、风格对比、图生图转换功能。触发词："Mondo风格"、"书籍封 | `Python` | 683 |
-| [op7418/Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) | 帮你从文档生成对应的多张配图，内置了歸藏精心探索的图片风格，支持 16:9 和 3:4 两种比例，方便发小红书以及推特。 | `Python` | 394 |
-| [Vimalinx-zero/OpenClaw-Newspaper](https://github.com/Vimalinx-zero/OpenClaw-Newspaper) | Sanitized public copy of the OpenClaw Newspaper project | `HTML` | 49 |
-
-## API 代理与逆向工程
-<a id="api-proxy"></a>
-
-*模型 API 代理、逆向工程 API、订阅转发服务*
-
-| 仓库 | 描述 | 语言 | Stars |
-| --- | --- | --- | --- |
-| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to en | `Go` | 25.2k |
-| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies | `Rust` | 24.1k |
-| [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) | Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | `Go` | 11.8k |
-| [chenyme/grok2api](https://github.com/chenyme/grok2api) | Grok2API 是一个基于 FastAPI 构建的 Grok 网关，支持将 Grok Web 能力以 OpenAI 兼容 API 的方式转换。 | `Python` | 4.1k |
-| [lanqian528/chat2api](https://github.com/lanqian528/chat2api) | A service that can convert ChatGPT on the web to OpenAI API format. | `Python` | 3.4k |
-| [HanaokaYuzu/Gemini-API](https://github.com/HanaokaYuzu/Gemini-API) | ✨ Reverse-engineered Python API for Google Gemini web app | `Python` | 2.6k |
-| [TheSmallHanCat/flow2api](https://github.com/TheSmallHanCat/flow2api) | 无限次数的banana pro！逆向账号池，支持负载均衡、AT自动刷新、缓存策略、代理等。Q交流群1073237297 | `Python` | 1.9k |
-| [TheSmallHanCat/sora2api](https://github.com/TheSmallHanCat/sora2api) | 逆向账号池，Q交流群1073237297 | `Python` | 1.2k |
-| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | Deepseek客户端对话转API全栈开源工具，高性能，多账号轮询，支持纯vercel、docker部署使用。Google、Claude、ChatGPT多接口格式兼容 | `Go` | 1.0k |
-| [hank9999/kiro.rs](https://github.com/hank9999/kiro.rs) | A Kiro Client in Rust | `Rust` | 896 |
-| [iptag/jimeng-api](https://github.com/iptag/jimeng-api) | Reverse-engineered the official API for Jimeng/Dreamina’s text-to-image and image-to-image features. Drew inspiration from several experts’ projects a | `TypeScript` | 866 |
-| [wwwzhouhui/jimeng-free-api-all](https://github.com/wwwzhouhui/jimeng-free-api-all) | Jimeng AI Free 服务支持即梦超强图像与视频生成能力，包含即梦 4.0 文生图等多款模型，提供文生图、图生图、视频生成功能（官方每日赠 66 积分，可生成 66 次），零配置部署且支持多路 token。 接口与 OpenAI 完全兼容，需从即梦官网获取 sessionid 作为 Auth | `TypeScript` | 791 |
-| [caiwuu/web2api](https://github.com/caiwuu/web2api) | 把网页AI转api，如claude2api | `Python` | 458 |
-| [YuJunZhiXue/qwen2API](https://github.com/YuJunZhiXue/qwen2API) | A project converting the Qwen web page to an API. | `Python` | 305 |
-| [bohesocool/you2api](https://github.com/bohesocool/you2api) | 暂无描述 | `Go` | 157 |
-| [TheSmallHanCat/Flow2API-Token-Updater](https://github.com/TheSmallHanCat/Flow2API-Token-Updater) | 与flow2api配套使用 | `JavaScript` | 149 |
-| [lulistart/Kiro2api-Node](https://github.com/lulistart/Kiro2api-Node) | 暂无描述 | `JavaScript` | 121 |
-
-## 效率工具与知识管理
-<a id="productivity-knowledge"></a>
-
-*笔记工具、第二大脑、监控仪表盘、个人 AI 助手*
-
-| 仓库 | 描述 | 语言 | Stars |
-| --- | --- | --- | --- |
-| [usememos/memos](https://github.com/usememos/memos) | Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours. | `Go` | 58.8k |
-| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational aw | `TypeScript` | 47.9k |
-| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any onli | `Python` | 34.0k |
-| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` | 24.5k |
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI. | `-` | 22.8k |
-| [mindverse/Second-Me](https://github.com/mindverse/Second-Me) | Train your AI self, amplify you, bridge the world | `Python` | 15.4k |
-| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Agentic AI Infrastructure for magnifying HUMAN capabilities. | `TypeScript` | 11.3k |
-| [YishenTu/claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault | `TypeScript` | 7.5k |
-| [obsidian-tasks-group/obsidian-tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) | Task management for the Obsidian knowledge base. | `TypeScript` | 3.6k |
-| [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code | `-` | 2.3k |
-| [heyitsnoah/claudesidian](https://github.com/heyitsnoah/claudesidian) | 暂无描述 | `Python` | 2.1k |
-| [wm94i/Work_Review](https://github.com/wm94i/Work_Review) | 帮你自动记录一天中使用了哪些应用、浏览了哪些网页、在每个应用上花了多少时间 | `Rust` | 919 |
-| [WishMelz/imgurl](https://github.com/WishMelz/imgurl) | 基于github的图片管理系统/免费 https://wishmelz.github.io/imgurl  ；基于Imgur的免费图床：https://github.com/WishMelz/imgur | `Vue` | 542 |
-| [chapterv/Tapnow-Studio-PP](https://github.com/chapterv/Tapnow-Studio-PP) | 设计师随心所欲的一枚无限画布 | `JavaScript` | 322 |
-| [blueberrycongee/termcanvas](https://github.com/blueberrycongee/termcanvas) | An infinite canvas desktop app for visually managing terminals | `TypeScript` | 227 |
-| [PehZeroV/tidyflux](https://github.com/PehZeroV/tidyflux) | A clean and elegant AI-powered client for Miniflux | `JavaScript` | 27 |
-| [SamSongAI/Trace](https://github.com/SamSongAI/Trace) | System-level quick capture for Obsidian on macOS. Press ⌘N anywhere — write to your Daily Note in 2 seconds. | `Swift` | 19 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | Karpathy 的自主 AI 研究 Agent，单 GPU 自动运行训练实验 | `Python` | 72.0k |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 自主深度研究 Agent，支持任意 LLM 提供商 | `Python` | 26.4k |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 让 AI Agent 看见互联网：Twitter / Reddit / YouTube / B站一站式抓取 | `Python` | 17.4k |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 全自主自进化研究系统，从想法到论文一步到位 | `Python` | 11.1k |
+| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | 深度研究 Agent，BrowseComp 基准 88.2 分 | `Python` | 8.1k |
+| [eze-is/web-access](https://github.com/eze-is/web-access) | Claude Code 联网能力 Skill：三层通道调度 + 浏览器 CDP + 并行分治 | `JavaScript` | 4.8k |
+| [epiral/bb-browser](https://github.com/epiral/bb-browser) | 浏览器即 API，CLI + MCP 让 Agent 复用 Chrome 登录态控制浏览器 | `TypeScript` | 4.5k |
+| [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) | AI Builders 日报，监控 X 和 YouTube 上的 AI 构建者动态 | `JavaScript` | 2.8k |
+| [steel-dev/awesome-web-agents](https://github.com/steel-dev/awesome-web-agents) | AI Web Agent 工具、框架和资源精选列表 | `Python` | 1.4k |
+| [GuDaStudio/GrokSearch](https://github.com/GuDaStudio/GrokSearch) | 通过 MCP 协议将 Grok 实时搜索能力集成到 Claude | `Python` | 1.3k |
+| [vibesurf-ai/VibeSurf](https://github.com/vibesurf-ai/VibeSurf) | AI 浏览器智能助手，开源的 Agent 浏览器 | `Python` | 481 |
+| [joeseesun/qiaomu-markdown-proxy](https://github.com/joeseesun/qiaomu-markdown-proxy) | URL 转 Markdown 代理，支持 r.jina.ai 和需登录页面 | `Python` | 412 |
+| [blessonism/openclaw-search-skills](https://github.com/blessonism/openclaw-search-skills) | OpenClaw 深度搜索技能：多源搜索、内容提取、结构化报告 | `Python` | 409 |
+| [astonysh/OpenClaw-DeepReeder](https://github.com/astonysh/OpenClaw-DeepReeder) | URL 转长期记忆，自动抓取网页/X/YouTube 并存为 Markdown 知识 | `Python` | 222 |
+| [blessonism/github-explorer-skill](https://github.com/blessonism/github-explorer-skill) | GitHub 项目多源深度分析 Skill，输出结构化研判报告 | `-` | 73 |
 
 ## 开发工具与基础设施
 <a id="dev-infra"></a>
@@ -277,48 +195,131 @@
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` | 489.1k |
-| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` | 87.2k |
-| [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. | `JavaScript` | 50.9k |
-| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development (SDD) for AI coding assistants. | `TypeScript` | 39.2k |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents | `TypeScript` | 34.2k |
-| [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through n | `TypeScript` | 26.9k |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you  | `TypeScript` | 17.9k |
-| [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfaces with natural language. | `TypeScript` | 16.8k |
-| [larksuite/cli](https://github.com/larksuite/cli) | The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger | `Go` | 7.4k |
-| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, us | `JavaScript` | 7.4k |
-| [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) | A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously wi | `TypeScript` | 5.4k |
-| [liujuntao123/smart-excalidraw-next](https://github.com/liujuntao123/smart-excalidraw-next) | A smart, powerful, and beautiful excalidraw drawing tool.Draw Professional Charts with Natural Language | `JavaScript` | 3.1k |
-| [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | A Unified MCP Server Management App (MCP Manager). | `TypeScript` | 1.9k |
-| [GuDaStudio/codexmcp](https://github.com/GuDaStudio/codexmcp) | Enable seamless collaboration between Claude Code and Codex, transforming from a single agent to multiple agents for significantly enhanced productivi | `Python` | 1.9k |
-| [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas | `JavaScript` | 1.7k |
-| [lgazo/drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server) | Draw.io Model Context Protocol (MCP) Server | `TypeScript` | 1.1k |
-| [qy527145/acemcp](https://github.com/qy527145/acemcp) | 一个将ACE(Augment Context Engine) 做成MCP的项目 | `Python` | 803 |
-| [Done-0/value-realization](https://github.com/Done-0/value-realization) | Evaluate product ideas by analyzing whether end users will discover clear value. Guides analysis of value clarity, timeline, perception, and discovery | `-` | 516 |
-| [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid) | ❤️ Generate mermaid diagram and chart with AI MCP dynamically. | `TypeScript` | 516 |
-| [vibesurf-ai/VibeSurf](https://github.com/vibesurf-ai/VibeSurf) | A powerful browser assistant for vibe surfing 一个开源的AI浏览器智能助手 | `Python` | 479 |
-| [yibie/SPEC-AGENTS.md](https://github.com/yibie/SPEC-AGENTS.md) | Doc-Driven Development | `Shell` | 108 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 开源编码 Agent，终端原生 AI 编程助手 | `TypeScript` | 143.0k |
+| [github/spec-kit](https://github.com/github/spec-kit) | GitHub 官方 Spec 驱动开发工具包 | `Python` | 87.9k |
+| [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | n8n 工作流大全集，收录海量自动化流程模板 | `Python` | 53.7k |
+| [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | TÂCHES 的轻量级元提示 + Spec 驱动开发框架 | `JavaScript` | 52.7k |
+| [chenglou/pretext](https://github.com/chenglou/pretext) | 快速精确的文本测量与排版引擎 | `TypeScript` | 43.7k |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 面向 AI 编码助手的 Spec 驱动开发（SDD）框架 | `TypeScript` | 39.8k |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools MCP 服务器，让 Agent 控制浏览器调试 | `TypeScript` | 34.9k |
+| [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | AI + Draw.io 集成，自然语言指令创建和修改图表 | `TypeScript` | 27.1k |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | n8n 工作流 MCP 服务器，让 AI Agent 自动构建 n8n 流程 | `TypeScript` | 18.1k |
+| [alibaba/page-agent](https://github.com/alibaba/page-agent) | 阿里开源的网页内 GUI Agent，用自然语言控制网页界面 | `TypeScript` | 17.0k |
+| [larksuite/cli](https://github.com/larksuite/cli) | 飞书官方 CLI 工具，200+ 命令覆盖 IM / 文档 / 日历等核心业务 | `Go` | 7.8k |
+| [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) | 元提示 + 上下文工程 + Spec 驱动开发系统（v2 版本） | `TypeScript` | 5.7k |
+| [liujuntao123/smart-excalidraw-next](https://github.com/liujuntao123/smart-excalidraw-next) | 智能 Excalidraw 绘图工具，自然语言画专业图表 | `JavaScript` | 3.1k |
+| [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | 统一 MCP Server 管理应用 | `TypeScript` | 2.0k |
+| [GuDaStudio/codexmcp](https://github.com/GuDaStudio/codexmcp) | Claude Code 与 Codex 协作 MCP，单 Agent 变多 Agent | `Python` | 1.9k |
+| [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | Excalidraw MCP 服务器和 Skill，AI Agent 程序化操作画布 | `JavaScript` | 1.7k |
+| [lgazo/drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server) | Draw.io MCP 服务器，让 AI Agent 操作流程图 | `TypeScript` | 1.1k |
+| [qy527145/acemcp](https://github.com/qy527145/acemcp) | 将 ACE (Augment Context Engine) 做成 MCP 服务 | `Python` | 803 |
+| [chaogei/Kiro-account-manager](https://github.com/chaogei/Kiro-account-manager) | 暂无描述 | `TypeScript` | 662 |
+| [hustcc/mcp-mermaid](https://github.com/hustcc/mcp-mermaid) | MCP 服务器，用 AI 动态生成 Mermaid 图表 | `TypeScript` | 522 |
+| [Done-0/value-realization](https://github.com/Done-0/value-realization) | 产品价值实现评估工具，分析用户是否能发现产品核心价值 | `-` | 517 |
+| [yibie/SPEC-AGENTS.md](https://github.com/yibie/SPEC-AGENTS.md) | 文档驱动开发方法论 | `Shell` | 108 |
 
-## LLM 工程与 AI 研究
-<a id="llm-research"></a>
+## UI/UX 与前端
+<a id="ui-design"></a>
 
-*LLM 评测、提示词工程、社会模拟、预测系统与学术资源*
+*前端组件库、设计系统、SaaS 模板与设计工具*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with c | `HTML` | 159.4k |
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` | 65.7k |
-| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | `Python` | 53.9k |
-| [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 | `Python` | 40.3k |
-| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | DSPy: The framework for programming—not prompting—language models | `Python` | 33.6k |
-| [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents) | Generative Agents: Interactive Simulacra of Human Behavior | `-` | 21.1k |
-| [openai/evals](https://github.com/openai/evals) | Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. | `Python` | 18.2k |
-| [karpathy/llm-council](https://github.com/karpathy/llm-council) | LLM Council works together to answer your hardest questions | `Python` | 16.9k |
-| [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins) | 暂无描述 | `Python` | 7.4k |
-| [camel-ai/oasis](https://github.com/camel-ai/oasis) | 🏝️ OASIS: Open Agent Social Interaction Simulations with One Million Agents.  | `Python` | 4.2k |
-| [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) | https://adongwanai.github.io/AgentGuide \| AI Agent开发指南 \| LangGraph实战 \| 高级RAG \| 转行大模型 \| 大模型面试 \| 算法工程师 \| 面试题库 \| 强化学习｜数据合成 | `HTML` | 3.5k |
-| [weitianxin/Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | A curated list of papers and resources based on the survey "Agentic Reasoning for Large Language Models" | `-` | 1.2k |
-| [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | AgentSociety: Large-scale Social Simulation to Understand Human Behaviors and Society through LLM-driven Agents | `Python` | 925 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 可复制粘贴的无头组件库，基于 Radix UI + Tailwind CSS | `TypeScript` | 112.3k |
+| [mui/material-ui](https://github.com/mui/material-ui) | Material UI — Google Material Design 的 React 组件库 | `JavaScript` | 98.1k |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | AI 设计智能 Skill，为多平台构建专业 UI/UX | `Python` | 64.7k |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | DESIGN.md 合集，基于流行品牌设计系统，让 Agent 生成匹配 UI | `-` | 49.7k |
+| [heroui-inc/heroui](https://github.com/heroui-inc/heroui) | HeroUI — 快速美观的现代 React UI 库（原 NextUI） | `TypeScript` | 28.9k |
+| [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | 设计工程师 UI 库，可复制的动画组件和效果 | `MDX` | 20.7k |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 设计语言框架，让 AI 编码助手生成更专业的 UI 设计 | `JavaScript` | 19.1k |
+| [nextjs/saas-starter](https://github.com/nextjs/saas-starter) | Next.js + Postgres + Stripe + shadcn/ui 的 SaaS 启动模板 | `TypeScript` | 15.7k |
+| [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) | 100% 免费全栈 SaaS 样板：认证、支付、AI、S3 一体化 | `TypeScript` | 14.1k |
+| [unovue/shadcn-vue](https://github.com/unovue/shadcn-vue) | shadcn/ui 的 Vue 版本移植 | `TypeScript` | 9.8k |
+| [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | shadcn/ui 可视化无代码主题编辑器 | `TypeScript` | 9.7k |
+| [ixartz/SaaS-Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) | 全栈 SaaS 样板工程：认证、多租户、权限、i18n、支付一体化 | `TypeScript` | 7.0k |
+| [hunvreus/basecoat](https://github.com/hunvreus/basecoat) | Tailwind CSS 组件库，适配任意 Web 技术栈 | `JavaScript` | 3.9k |
+| [benjitaylor/agentation](https://github.com/benjitaylor/agentation) | Agent 可视化反馈工具，让 AI 看到设计效果 | `TypeScript` | 3.4k |
+| [refscn/rplibs](https://github.com/refscn/rplibs) | Axure RP 原型设计元件库，支持多平台应用和网站原型 | `HTML` | 3.2k |
+| [origin-space/ui-experiments](https://github.com/origin-space/ui-experiments) | 基于 Origin UI 和 shadcn/ui 的精美布局和 UI 实验 | `TypeScript` | 1.4k |
+| [Ali-Hussein-dev/indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) | 独立 UI 组件集合，基于 Next.js + shadcn | `TypeScript` | 706 |
+| [jau123/MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP) | MeiGen AI 设计 MCP — 本地 ComfyUI + 1400+ 提示词库 | `TypeScript` | 577 |
+| [GalaxyXieyu/Design-Learn](https://github.com/GalaxyXieyu/Design-Learn) | 设计学习资源合集 | `HTML` | 163 |
+
+## 内容创作与媒体
+<a id="content-media"></a>
+
+*视频/图片生成、社交媒体发布、文档转换与创意工具*
+
+| 仓库 | 描述 | 语言 | Stars |
+| --- | --- | --- | --- |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 微软开源的文件转 Markdown 工具，支持 Office / PDF 等格式 | `Python` | 107.9k |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 用 React 编程式制作视频，支持动画、字幕等 | `TypeScript` | 43.2k |
+| [doocs/md](https://github.com/doocs/md) | 微信 Markdown 编辑器，支持自定义主题、多图床、AI 助手 | `Vue` | 12.3k |
+| [saturndec/waoowaoo](https://github.com/saturndec/waoowaoo) | 工业级全流程 AI 影视生产平台，从短剧到实景好莱坞标准 | `TypeScript` | 11.3k |
+| [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) | 社交媒体视频自动上传：抖音、小红书、视频号、TikTok、YouTube、B站 | `Python` | 10.0k |
+| [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) | 又一个文档翻译器，支持多格式 | `Python` | 8.1k |
+| [webadderall/Recordly](https://github.com/webadderall/Recordly) | 开源录屏工具，自动缩放、动画光标、自动字幕，跨平台 | `TypeScript` | 7.8k |
+| [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Humanizer 汉化版 Skill，消除文本中的 AI 生成痕迹 | `-` | 6.0k |
+| [oaker-io/wewrite](https://github.com/oaker-io/wewrite) | 公众号全流程 AI Skill：热点抓取→写作→SEO→配图→排版→草稿箱 | `Python` | 1.5k |
+| [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | Seedance 2.0 提示词大全和资源合集，AI 视频生成指南 | `Shell` | 1.5k |
+| [geekjourneyx/md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) | Markdown 转微信公众号排版，一键上传草稿箱，Go 实现 | `Go` | 1.4k |
+| [liangdabiao/Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) | Seedance 2.0 剧本生成器，将小说/故事转化为多集视频分镜 | `-` | 877 |
+| [AmElmo/proofshot](https://github.com/AmElmo/proofshot) | Agent 视觉证据工具，录制浏览器会话并捕获截图供人类验证 | `TypeScript` | 786 |
+| [joeseesun/qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) | 一句话生成大师级海报，基于 20 位传奇设计师风格 | `Python` | 696 |
+| [op7418/Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) | 文档配图 Skill，内置多种精选图片风格，支持 16:9 和 3:4 | `Python` | 400 |
+| [Vimalinx-zero/OpenClaw-Newspaper](https://github.com/Vimalinx-zero/OpenClaw-Newspaper) | OpenClaw 新闻报纸项目 | `HTML` | 49 |
+
+## API 代理与模型接入
+<a id="api-proxy"></a>
+
+*模型 API 逆向、订阅转发、Token 管理与 CLI 代理*
+
+| 仓库 | 描述 | 语言 | Stars |
+| --- | --- | --- | --- |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | CLI 代理工具，减少 LLM Token 消耗 60-90%，Rust 单二进制 | `Rust` | 26.1k |
+| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 将 Gemini CLI / Claude Code / Codex 等包装为兼容 API 服务 | `Go` | 25.9k |
+| [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) | 订阅转 API 一站式中转，支持 Claude/OpenAI/Gemini 拼车共享 | `Go` | 12.5k |
+| [chenyme/grok2api](https://github.com/chenyme/grok2api) | Grok Web 转 OpenAI 兼容 API 网关，FastAPI 实现 | `Python` | 4.2k |
+| [lanqian528/chat2api](https://github.com/lanqian528/chat2api) | ChatGPT 网页版转 OpenAI API 格式服务 | `Python` | 3.5k |
+| [HanaokaYuzu/Gemini-API](https://github.com/HanaokaYuzu/Gemini-API) | Google Gemini 网页版逆向 Python API，支持图片生成 | `Python` | 2.6k |
+| [TheSmallHanCat/flow2api](https://github.com/TheSmallHanCat/flow2api) | Banana Pro 无限次数逆向 API，支持负载均衡和缓存策略 | `Python` | 2.0k |
+| [TheSmallHanCat/sora2api](https://github.com/TheSmallHanCat/sora2api) | Sora 逆向 API，账号池 + 负载均衡 | `Python` | 1.2k |
+| [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | DeepSeek 客户端对话转 API，多账号轮询，支持 Vercel 部署 | `Go` | 1.1k |
+| [hank9999/kiro.rs](https://github.com/hank9999/kiro.rs) | Kiro 客户端 Rust 实现 | `Rust` | 924 |
+| [iptag/jimeng-api](https://github.com/iptag/jimeng-api) | 即梦/Dreamina 逆向 API，文生图和图生图，稳定性优化 | `TypeScript` | 872 |
+| [wwwzhouhui/jimeng-free-api-all](https://github.com/wwwzhouhui/jimeng-free-api-all) | 即梦 AI 全能免费 API，支持文生图、图生图、视频生成 | `TypeScript` | 808 |
+| [caiwuu/web2api](https://github.com/caiwuu/web2api) | 网页 AI 转 API 通用框架，如 Claude 网页版转 API | `Python` | 467 |
+| [YuJunZhiXue/qwen2API](https://github.com/YuJunZhiXue/qwen2API) | 通义千问网页版转 API 服务 | `Python` | 334 |
+| [bohesocool/you2api](https://github.com/bohesocool/you2api) | You.com 搜索引擎逆向 API，Go 实现 | `Go` | 158 |
+| [TheSmallHanCat/Flow2API-Token-Updater](https://github.com/TheSmallHanCat/Flow2API-Token-Updater) | Flow2API 配套的 Token 自动更新工具 | `JavaScript` | 151 |
+| [lulistart/Kiro2api-Node](https://github.com/lulistart/Kiro2api-Node) | Kiro 编辑器逆向 API，Node.js 实现 | `JavaScript` | 121 |
+
+## 效率、知识与通讯
+<a id="productivity-knowledge"></a>
+
+*笔记工具、第二大脑、监控仪表盘与个人 AI 助手*
+
+| 仓库 | 描述 | 语言 | Stars |
+| --- | --- | --- | --- |
+| [usememos/memos](https://github.com/usememos/memos) | 开源自托管笔记工具，Markdown 原生、轻量快速 | `Go` | 58.9k |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 实时全球情报仪表盘，AI 驱动的新闻聚合与地缘政治监控 | `TypeScript` | 48.2k |
+| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | AI 第二大脑，可自托管，支持网络搜索、文档问答和深度研究 | `Python` | 34.1k |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | AI 驱动的求职系统，14 种技能模式 + Go 仪表盘 + PDF 生成 | `JavaScript` | 33.0k |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Obsidian 官方 Agent 技能集，支持 Markdown / Bases / JSON Canvas | `-` | 23.8k |
+| [mindverse/Second-Me](https://github.com/mindverse/Second-Me) | 训练你的 AI 分身，放大你，连接世界 | `Python` | 15.4k |
+| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | 个人 AI 基础设施，放大人类能力的 Agent 系统 | `TypeScript` | 11.4k |
+| [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) | 2026 机场推荐与评测合集 | `-` | 9.0k |
+| [YishenTu/claudian](https://github.com/YishenTu/claudian) | Obsidian 插件，将 Claude Code 嵌入知识库作为 AI 协作者 | `TypeScript` | 7.8k |
+| [obsidian-tasks-group/obsidian-tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) | Obsidian 任务管理插件 | `TypeScript` | 3.6k |
+| [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | Obsidian 可视化技能包：从文本生成 Canvas / Excalidraw / Mermaid | `-` | 2.4k |
+| [heyitsnoah/claudesidian](https://github.com/heyitsnoah/claudesidian) | Obsidian 中嵌入 Claude 的 AI 协作工具 | `Python` | 2.2k |
+| [wm94i/Work_Review](https://github.com/wm94i/Work_Review) | 自动记录每日应用使用和网页浏览情况，Rust 实现 | `Rust` | 934 |
+| [WishMelz/imgurl](https://github.com/WishMelz/imgurl) | 基于 GitHub 的免费图片管理系统 / 图床 | `Vue` | 542 |
+| [chapterv/Tapnow-Studio-PP](https://github.com/chapterv/Tapnow-Studio-PP) | 设计师专用无限画布应用 | `JavaScript` | 331 |
+| [blueberrycongee/termcanvas](https://github.com/blueberrycongee/termcanvas) | 无限画布终端管理器，可视化管理多个终端窗口 | `TypeScript` | 236 |
+| [PehZeroV/tidyflux](https://github.com/PehZeroV/tidyflux) | Miniflux RSS 阅读器的 AI 增强清爽客户端 | `JavaScript` | 27 |
+| [SamSongAI/Trace](https://github.com/SamSongAI/Trace) | macOS 系统级快速捕获工具，全局快捷键写入 Obsidian 日记 | `Makefile` | 19 |
+| [LeoLB-Wang/wukong-invite-helper](https://github.com/LeoLB-Wang/wukong-invite-helper) | 悟空邀请码监测与 OCR 自动化工具，macOS/Windows | `Python` | 14 |
 
 ## 通讯平台与聊天机器人
 <a id="communication-chat"></a>
@@ -327,48 +328,39 @@
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨ | `Python` | 29.7k |
-| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doe | `Python` | 10.2k |
-| [NoeFabris/opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) | Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pr | `TypeScript` | 10.1k |
-| [Mai-with-u/MaiBot](https://github.com/Mai-with-u/MaiBot) | MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not | `Python` | 4.6k |
-| [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) | RikkaHub is an Android APP that supports for multiple LLM providers. | `Kotlin` | 3.9k |
-| [op7418/Claude-to-IM-skill](https://github.com/op7418/Claude-to-IM-skill) | Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark. | `TypeScript` | 2.1k |
-| [yan5xu/ququ](https://github.com/yan5xu/ququ) | 开源免费的 Wispr Flow 替代方案 \| 集成FunASR本地模型和可配置大语言模型的下一代中文桌面语音工作流 | `JavaScript` | 2.1k |
-| [andrepimenta/claude-code-chat](https://github.com/andrepimenta/claude-code-chat) | Beautiful Claude Code Chat Interface for VS Code | `JavaScript` | 1.0k |
-| [freestylefly/wechat-cli](https://github.com/freestylefly/wechat-cli) | A CLI tool to query your local WeChat data — chat history, contacts, sessions, favorites, and more. Designed for LLM integration. | `Python` | 455 |
-| [woniu9524/ParallelChat](https://github.com/woniu9524/ParallelChat) | ParallelChat 是一款开源的多 AI 并行对话桌面应用，让你在一个界面中同时使用 ChatGPT、Kimi、Qwen、DeepSeek、GLM、Doubao、Yuanbao、Grok 等主流大模型，无需 API Key，完全免费。 | `TypeScript` | 170 |
-| [oyxning/astrbot_plugin_antipromptinjector](https://github.com/oyxning/astrbot_plugin_antipromptinjector) | 还在因为自己的 Bot 被调教成猫娘而烦恼吗？ Anti-Prompt Injector 插件为您提供全面的提示词注入防护，保护您的 Bot 不被恶意用户操控！ | `Python` | 63 |
-| [KeloYuan/Niki-AI](https://github.com/KeloYuan/Niki-AI) | 一个笔记软件的AI工具 | `TypeScript` | 55 |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | IM 聊天机器人基础设施，支持多平台、LLM、插件和 MCP | `Python` | 29.9k |
+| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Google NotebookLM 非官方 Python API 和 Agent Skill | `Python` | 10.5k |
+| [Mai-with-u/MaiBot](https://github.com/Mai-with-u/MaiBot) | MaiSaka — 追求真实人类交互风格的 LLM 智能体 | `Python` | 4.6k |
+| [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) | Android 多 LLM 客户端，支持 MCP 和多家模型提供商 | `Kotlin` | 3.9k |
+| [op7418/Claude-to-IM-skill](https://github.com/op7418/Claude-to-IM-skill) | Claude Code 桥接 IM 平台 Skill，支持 Telegram / Discord / 飞书 | `TypeScript` | 2.2k |
+| [yan5xu/ququ](https://github.com/yan5xu/ququ) | 开源 Wispr Flow 替代，本地中文语音转文字 + AI 处理 | `JavaScript` | 2.1k |
+| [woniu9524/ParallelChat](https://github.com/woniu9524/ParallelChat) | 开源多 AI 并行对话桌面应用，无需 API Key，完全免费 | `TypeScript` | 176 |
+| [oyxning/astrbot_plugin_antipromptinjector](https://github.com/oyxning/astrbot_plugin_antipromptinjector) | AstrBot 反提示词注入插件，保护 Bot 不被恶意操控 | `Python` | 63 |
+| [KeloYuan/Niki-AI](https://github.com/KeloYuan/Niki-AI) | 笔记软件的 AI 工具 | `TypeScript` | 55 |
 
-## 思维蒸馏与其他
-<a id="creative-misc"></a>
+## LLM 研究与学术
+<a id="llm-research"></a>
 
-*将个人思维蒸馏为 AI 技能的创意项目，以及其他未分类工具*
+*LLM 评测、提示词工程、社会模拟、预测系统与学术资源*
 
 | 仓库 | 描述 | 语言 | Stars |
 | --- | --- | --- | --- |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` | 141.7k |
-| [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` | 53.7k |
-| [chenglou/pretext](https://github.com/chenglou/pretext) | Fast, accurate & comprehensive text measurement & layout | `TypeScript` | 43.1k |
-| [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthrop | `TypeScript` | 32.0k |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | `JavaScript` | 31.0k |
-| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases | `Shell` | 17.0k |
-| [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) | 原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | `TypeScript` | 15.5k |
-| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶 | `Python` | 13.1k |
-| [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) | 🚁🚀 2026机场推荐 \|  熊猫VPN（PandaVPNPro）已确定跑路！快连VPN ，小牛加速器（小牛VPN）体验不佳且价格贵。低价机场，便宜机场，平价机场，性价比机场，高速机场，稳定机场，一元机场，翻墙机场，付费机场，收费机场，冷门机场，优质机场，廉价机场。机场评测，中国翻墙，科学上网，梯子 | `-` | 8.9k |
-| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` | 8.6k |
-| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. | `Python` | 7.8k |
-| [therealXiaomanChu/ex-skill](https://github.com/therealXiaomanChu/ex-skill) | 把前任蒸馏成 AI Skill，用ta的方式跟你说话。 | `Python` | 4.3k |
-| [hua1995116/indiehackers-steps](https://github.com/hua1995116/indiehackers-steps) | 《独立开发者的艺术》打造最全的独立开发者指南，一人公司。 | `-` | 3.4k |
-| [tw93/Waza](https://github.com/tw93/Waza) | 🥷 Engineering habits you already know, turned into skills Claude can run. | `Shell` | 2.6k |
-| [lst97/claude-code-sub-agents](https://github.com/lst97/claude-code-sub-agents) | Collection of specialized AI subagents for Claude Code for personal use (full-stack development). | `-` | 1.5k |
-| [lijigang/ljg-skill-xray-paper](https://github.com/lijigang/ljg-skill-xray-paper) | 论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式 | `-` | 532 |
-| [lijigang/ljg-skill-xray-book](https://github.com/lijigang/ljg-skill-xray-book) | 深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构 | `-` | 368 |
-| [FANzR-arch/Numerologist_skills](https://github.com/FANzR-arch/Numerologist_skills) | 🔮 An engineering framework to stop LLM hallucinations in Chinese astrology. / 给“赛博半仙”戴上紧箍咒：减少幻觉、固定排盘步骤的奇门遁甲与紫微斗数 AI skills。 | `HTML` | 335 |
-| [lijigang/ljg-skill-xray-article](https://github.com/lijigang/ljg-skill-xray-article) | 智慧X光机 — Claude Code Skill，四层漏斗透视文章，提炼可迁移智慧晶核 | `-` | 121 |
-| [huangyunbin/resource](https://github.com/huangyunbin/resource) | 一些资源 | `HTML` | 28 |
-| [LeoLB-Wang/wukong-invite-helper](https://github.com/LeoLB-Wang/wukong-invite-helper) |   一个基于 macOS 、windows(没测过)的 Wukong 邀请码监测与 OCR 自动化工具。   - 轮询邀请图地址，预处理图片，识别邀请码，并可自动复制或填入 App。 | `Python` | 14 |
-| [mileson/agent-onboarding](https://github.com/mileson/agent-onboarding) | OpenClaw Feishu Agent 入职标准化工具 - 覆盖配置 upsert、identity 补齐、角色文档模板渲染、飞书与任务合同规范校验 | `Python` | 5 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 通过从零重建技术来精通编程，最全实践指南 | `Markdown` | 490.2k |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 最全 AI 提示词社区，支持 ChatGPT / Claude / Gemini 等 | `HTML` | 159.7k |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 开源金融数据平台，面向分析师、量化和 AI Agent | `Python` | 65.9k |
+| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 群体智能预测引擎，多 Agent 协作预测万物 | `Python` | 54.9k |
+| [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 微舆 — 多 Agent 舆情分析助手，打破信息茧房，预测走向 | `Python` | 40.4k |
+| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | DSPy — 编程式（而非提示式）使用语言模型的框架 | `Python` | 33.7k |
+| [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents) | 斯坦福生成式 Agent 论文代码，模拟人类行为的交互式智能体 | `-` | 21.1k |
+| [openai/evals](https://github.com/openai/evals) | OpenAI 的 LLM 评测框架和开源基准测试库 | `Python` | 18.2k |
+| [karpathy/llm-council](https://github.com/karpathy/llm-council) | Karpathy 的 LLM 委员会，多模型协作回答难题 | `Python` | 17.1k |
+| [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins) | Anthropic 金融服务插件集 | `Python` | 7.5k |
+| [camel-ai/oasis](https://github.com/camel-ai/oasis) | 百万级 Agent 开放社会交互模拟平台 | `Python` | 4.3k |
+| [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) | AI Agent 开发指南，含 LangGraph 实战、高级 RAG、面试题库 | `HTML` | 3.7k |
+| [hua1995116/indiehackers-steps](https://github.com/hua1995116/indiehackers-steps) | 《独立开发者的艺术》，最全独立开发者指南与一人公司方法论 | `-` | 3.4k |
+| [weitianxin/Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | 大模型 Agentic 推理论文与资源精选 | `-` | 1.2k |
+| [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | LLM 驱动的大规模社会模拟，理解人类行为与社会运作 | `Python` | 929 |
+| [huangyunbin/resource](https://github.com/huangyunbin/resource) | 学习资源合集 | `HTML` | 28 |
 
 ---
 
