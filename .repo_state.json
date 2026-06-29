@@ -1,4 +1,8 @@
 [
+  "JeffLi1993/seo-audit-skill",
+  "NanmiCoder/MediaCrawler",
+  "penpot/penpot",
+  "calesthio/OpenMontage",
   "can1357/oh-my-pi",
   "ding113/claude-code-hub",
   "elder-plinius/CL4R1T4S",
@@ -275,7 +279,7 @@
   "JimLiu/baoyu-skills",
   "nextjs/saas-starter",
   "ixartz/SaaS-Boilerplate",
-  "SumeLabs/clawra",
+  "sumelabs/clawra",
   "khoj-ai/khoj",
   "assafelovic/gpt-researcher",
   "FoundationAgents/MetaGPT",
